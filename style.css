@@ -831,6 +831,7 @@ h4 {
 }
 .sub-image__text{
     width: 60%;
+    min-width: 320px;
     font-size: 2.2rem;
     font-weight: normal;
     margin: 20px 0px;
@@ -858,7 +859,32 @@ h4 {
     font-family: arial;
     color: black;
 }
+.img-responsive{
+    object-fit: cover;
+    width: 100%;
+}
+p{
+    font-size: 14px !important;
+}
 
+/* == FOOTER == */
+
+.footer__text{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.footer__head-list{
+    color: white !important;
+    font-size: 18px !important;
+    font-weight: bolder;
+}
+.footer__list{
+    color: white;
+    font-size: 16px;
+}
+.footer__list li a{
+    color: black !important;
+}
 /*================================== MODIFIED PART ================================= */
 
 
