@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -885,6 +889,19 @@ p{
 .footer__list li a{
     color: black !important;
 }
+
+/*====== CONTACT PAGE =======*/
+.contact__title{
+    color: white !important;
+    font-size: 5rem !important;
+    font-weight: bolder !important;
+}
+.contact__subtitle-text{
+    color: white !important;
+    font-size: 1.7rem !important;
+    margin-top: 30px !important;
+}
+
 /*================================== MODIFIED PART ================================= */
 
 
