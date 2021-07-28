@@ -16,7 +16,9 @@ button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
-
+a:focus, button:focus {
+    border: 2px solid darkslategray;
+}
 a:hover {
     text-decoration: none;
     cursor: pointer;
