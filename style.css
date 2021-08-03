@@ -855,7 +855,7 @@ h4 {
     border: 0px solid white;
 }
 .quote-box__text {
-    font-size: 2rem;
+    font-size: 2rem !important;
     font-style: italic;
     width: 85%;
     line-height: 26px;
@@ -902,6 +902,21 @@ p{
     color: white !important;
     font-size: 1.7rem !important;
     margin-top: 30px !important;
+}
+
+/*====== COLOR CONTRAST CORRECTION =======*/
+
+.bgc-atomic-tangerine{
+    background: #a73500 !important;
+}
+.btn-atomic-tangerine{
+    background: #a73500 !important;
+}
+.btn-atomic-tangerine:hover{
+    background: #333333 !important;
+}
+.tc-light{
+    color: rgba(255, 255, 255, 1) !important;
 }
 
 /*================================== MODIFIED PART ================================= */
